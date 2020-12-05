@@ -1,8 +1,9 @@
 #include <fstream>
 #include <bitset>
 using namespace std;
-ifstream cin("test.in");
-ofstream cout("test.out");
+string file = "test";
+ifstream cin(file + ".in");
+ofstream cout(file + ".out");
 int rst, rdr, cst, cdr, mid1, mid2;
 long long maxi;
 string x;
